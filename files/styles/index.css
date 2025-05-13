@@ -1,30 +1,84 @@
+
 body {
     background-color:pink;
-    /* display: flex; */
-}
-section {
-display: flex;
-align-content: center;
-flex-basis:auto;
+    display: flex;
     justify-content: center;
+
+     
+
+}
+/* section {
+display: flex;
+align-content: top;
+flex-basis:auto;
+    justify-content: flex-start;
 
 /* margin-left: 10%;
 margin-right: 10%; */
 
-}
 
-.whitebox{
+
+/* .whitebox{
     background-color: white;
+    border: 3px solid black;
     position: fixed;
+    width: 600px;
    top: 0;
+   display: flex;
+   flex-direction: column; */
+    /* justify-content: left; */
+   
   /*bottom:0; */
+
+/* } */
+.content {
+  background-color: white;
+  width:50%;
+      display: flex;
+      flex-direction:column;
+      align-items: left;
+      /* flex-wrap: wrap; */
+      align-content: flex-start;
+
+      position: absolute;
+      top:0; 
+      /* height: 1000px; */
+      
+      /* pasts the white box at top of screen */
+      /* flex-grow: 1; */
+
+      /* overflow: auto; */
+/* sets heigt and makes div scrollable */
+     
+/* border:8px solid black; */
+
+
+  /* justify-content: left;
+  align-items: left; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
+  
+}
+.greybox {
+  background-color:lightgray;
+  align-self: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
 
 }
 img {
-
   height:400px;
   width:600px;
 }
 h1{
   color: red;
 }
+p {
+  max-width: 600px;
+}
+
+/* .recept {
+      justify-content: left;
+  
+
+} */
