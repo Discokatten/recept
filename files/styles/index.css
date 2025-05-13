@@ -1,22 +1,30 @@
 body {
     background-color:pink;
+    /* display: flex; */
 }
 section {
 display: flex;
 align-content: center;
-margin-left: 10%;
-margin-right: 10%;
+flex-basis:auto;
+    justify-content: center;
+
+/* margin-left: 10%;
+margin-right: 10%; */
 
 }
 
 .whitebox{
     background-color: white;
-position: fixed;
-  top: 0;
-  bottom:0;
+    position: fixed;
+   top: 0;
+  /*bottom:0; */
 
 }
 img {
 
-  height:50%;
+  height:400px;
+  width:600px;
+}
+h1{
+  color: red;
 }
