@@ -1,0 +1,22 @@
+body {
+    background-color:pink;
+}
+section {
+display: flex;
+align-content: center;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+.whitebox{
+    background-color: white;
+position: fixed;
+  top: 0;
+  bottom:0;
+
+}
+img {
+
+  height:50%;
+}
