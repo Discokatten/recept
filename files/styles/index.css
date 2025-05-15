@@ -33,19 +33,19 @@ margin-right: 10%; */
 /* } */
 .content {
   background-color: white;
+  padding:50px;
   width:50%;
       display: flex;
       flex-direction:column;
       align-items: left;
-      /* flex-wrap: wrap; */
+
       align-content: flex-start;
 
       position: absolute;
       top:0; 
-      /* height: 1000px; */
+
       
       /* pasts the white box at top of screen */
-      /* flex-grow: 1; */
 
       /* overflow: auto; */
 /* sets heigt and makes div scrollable */
@@ -59,13 +59,13 @@ margin-right: 10%; */
   margin-right: 20px; */
   
 }
-.greybox {
-  background-color:lightgray;
+.grey{
+  background-color: lightgray;
   align-self: center;
-  padding-top: 3px;
-  padding-bottom: 3px;
-
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
 .img1 {
 height: 100%;
   /* height:400px; */
@@ -79,18 +79,24 @@ p {
 }
 .serv {
   display: flex;
-  width: 600px;
-  align-items: center;
+  justify-content: space-evenly;
+  max-width: 100%;
+  flex-wrap: wrap;
+  
+  /* display: grid;
+  grid-template-columns: 2;
+  grid-template-rows: 1; */
 }
 .img2 {
-margin-left: 10px;
-margin-right: 10px;
-max-width: 50%;
-max-height: 50%;
-   object-fit:contain;
-}
-/* .recept {
-      justify-content: left;
-  
+  width: 250px;
+height: 250px;
+  /* object-fit: cover;
 
-} */
+max-height: 200px ;
+max-width: auto;
+overflow: hidden; */
+/* overflow: hidden; */
+   /* object-fit: contain; */
+   /* max-width:45%;
+   max-height: 45% */
+}
